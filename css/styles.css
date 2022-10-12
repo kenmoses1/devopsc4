@@ -1,13 +1,14 @@
 h1 {
-    color: chartreuse;
+    color: blue;
     font-size: 50px;
     text-underline-position: below;
+    
    
     
 }
 
 p {
-    font-size: larger;
+    font-size: medium;
 }
 
 body{
