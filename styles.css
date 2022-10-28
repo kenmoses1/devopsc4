@@ -2,10 +2,12 @@ h1 {
     color: blue;
     font-size: 50px;
     text-underline-position: below;
+    text-align: left;
+      }
     
    
     
-}
+
 
 p {
     font-size: medium;
