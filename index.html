@@ -1,56 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 
 <head>
-<title>website creation</title>
-<!-- link to my sytlesheet -->
-<link href="styles.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Birthday/Akan names</title>
+  <link rel="stylesheet" href="styles.css">
+
+
 </head>
 
 <body>
+  <div class="content">
+    <div class="container">
+      <h1>Birthday and Akan Name Generation</h1>
+      <p>This is a web application that takes a user's birthday and calculates the day of the week they were born and
+        then depending on their gender outputs their Akan Name.</p>
+        <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' 
+          which corresponds to the day in the week they were born. Here are Ghanian day names</p>
 
-<h1>Ken Moses</h1>
-<p>SFC Engineer</p>
-<a href="https://www.w3schools.com/">click for more details</a>
-<img src="images/Capture.PNG">
+      <form class="myform" onsubmit="return getAkanName()">
+        <label for="year-of-birth">
+          Year:
+          <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
+        </label>
+        <label for="month-of-birth">
+          Month:
+          <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
+        </label>
+        <label for="day-of-birth">
+          Day:
+          <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
+        </label>
+        <br>
+        <label for="gender">
+          <p>Select your gender: </p>
+          Male
+          <input id="male-input" type="radio" name="gender" value="male" required>
+          Female
+          <input id="female-input" type="radio" name="gender" value="female" required>
 
-<p>My name is Ken Moses. Have Been an employee working with Safaricom PLC for 10 years now as a IT Service Centre Engineer</p>
-<p>I have decided to try a new learning path of DeVops and SRE just to understand programming and take my tech career to another level</p>
-<p>I have zero or minimal website creation but willing to learn new stuff</p>
+        </label>
+        <br><br>
+        <input id="get-name" type="submit" name="" value="Generate name">
+        <br><br>
+      </form>
+      <h4 id=display-name><strong>Your Akan name will be displayed below:</strong></h4>
+      <p id="result"></p>
+    </div>
+  </div>
 
-  <h1>This are projects have worked on</h1>
-  <ul>
-    <li>website creation html and css</li>
-    <li>postgrel db intergration with dbeaver</li>
-  </ul>
+  <script src="app.js"></script>
 
-  <h1>My current interests/hobbies/skills</h1>
-  <ol>
-    <li>Travelling</li>
-    <li>Movies</li>
-    <li>sql coding and scripting</li>
-    <li>postgrel DB intergration</li>
-  </ol>
-
-  <form>
-<h1>You can log your details in  here</h1>
-   <input type="button">
-   <label>username</label>
-   <input type="text">
-   <label>password</label>
-   <input type="text">
-   <label>password2</label>
-   <input type="text">
-   <label>DOB</label>
-   <input type="datetime">
-   <label>Country</label>
-   <input type="text">
-   <label>email address</label>
-   <input type="email">
-   <label>remember me</label>
-   <input type="checkbox">
-
-  </form>
-  <p>Have a smiley day &#128516</p>
 </body>
+
 </html>
