@@ -1,48 +1,53 @@
 h1 {
-    color: blue;
-    font-size: 50px;
-    text-underline-position: below;
-    text-align: center;
-    padding-top: 20px;
-      }
-    
-    
+  color: blue;
+  font-size: 50px;
+  text-underline-position: below;
+  text-align: center;
+  padding-top: 20px;
+}
 
-    .container{
-      width: 70%;
-      margin: auto;
-    }
-    
 
-#result{
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+
+#result {
   text-align: left;
   color: blue;
 }
+
 p {
-    font-size: medium;
-    color: brown;
+  font-size: medium;
+  color: brown;
 }
-#year-input{
-    border-radius: 5px;
-    width: 60px;
-    height: 20px;
-    box-shadow: 2px 2px #000000;
-    color: red;
-  }
-  #month-input{
-    border-radius: 5px;
-    width: 60px;
-    height: 20px;
-    box-shadow: 2px 2px #000000;
-    color: red;
-  }
-  #day-input{
-    border-radius: 5px;
-    width: 60px;
-    height: 20px;
-    box-shadow: 2px 2px #000000;
-    color: red;
-  }
-body{
-    background-color: chartreuse;
+
+#year-input {
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  box-shadow: 2px 2px #000000;
+  color: red;
+}
+
+#month-input {
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  box-shadow: 2px 2px #000000;
+  color: red;
+}
+
+#day-input {
+  border-radius: 5px;
+  width: 60px;
+  height: 20px;
+  box-shadow: 2px 2px #000000;
+  color: red;
+}
+
+body {
+  background-color: chartreuse;
 }
