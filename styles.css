@@ -25,25 +25,20 @@ h3 {
 }
 
 
-#result {
-  text-align: left;
-  color: blue;
-}
-
 p {
   font-size: medium;
-  color: black;
+  color:blue;
   text-align: center;
   text-underline-position: below;
 }
 
 
-#year-input {
+#col {
   border-radius: 5px;
   width: 60px;
   height: 20px;
   box-shadow: 2px 2px #000000;
-  color: red;
+  color:chartreuse;
 }
 
 #month-input {
