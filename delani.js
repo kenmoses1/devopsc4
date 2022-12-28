@@ -1,56 +1,58 @@
-$(document).ready(function () {
-  $(".design").click(function () {
-    $(".design").hide(1200);
-    $(".p1").toggle(1200);
-    $(".p1").show(1200);
-  })
-  $(".p1").click(function () {
-    $(".p1").hide(1200);
-    $(".design").toggle(1200);
-    $(".design").show(1200);
+$(document).ready(function() {
+  $(".click1"). click(function(){
+    $(".show1").toggle();
+    $(".hide1").toggle();
   });
-});
-$(document).ready(function () {
-  $(".development").click(function () {
-    $(".development").hide(1200);
-    $(".p2").toggle(1200);
-    $(".p2").show(1200);
-  })
-  $(".p2").click(function () {
-    $(".p2").hide(1200);
-    $(".development").toggle(1200);
-    $(".development").show(1200);
+    $(".click2").click(function () {
+      $(".show2").toggle();
+      $(".hide2").toggle();
+    });
+  $(".click3"). click(function(){
+    $(".show3").toggle();
+    $(".hide3").toggle();
+      });
+      $(".col-3").hover(function(){ 
+      });
+      $("#inputName"). submit(function(event){
+  alert(inputName + "we have received your message. Thank you for reaching out to us.")
+  event.preventDefault();
+    $(".click3").click(function () {
+      $(".show3").toggle();
+      $(".hide3").toggle();
+    });
+  
+    $("#image4").hover(function () {
+      $("#p4").toggle()
+    });
+    $("#image3").hover(function () {
+      $("#p3").toggle()
+    });
+    $("#image2").hover(function () {
+      $("#p2").toggle()
+    });
+    $("#image1").hover(function () {
+      $("#p1").toggle()
+    });
+    $("#image5").hover(function () {
+      $("#p5").toggle()
+    });
+    $("#image6").hover(function () {
+      $("#p6").toggle()
+    });
+    $("#image7").hover(function () {
+      $("#p7").toggle()
+    });
+    $("#image8").hover(function () {
+      $("#p8").toggle()
+    });
+  
+  
   });
-});
-$(document).ready(function () {
-  $(".product").click(function () {
-    $(".product").hide(1200);
-    $(".p3").toggle(1200);
-    $(".p3").show(1200);
-  })
-  $(".p3").click(function () {
-    $(".p3").hide(1200);
-    $(".product").toggle(1200);
-    $(".product").show(1200);
+  
+  
+  $("form").submit(function () {
+    let inputname = $("input#inputname").val()
+    alert("Hello " + inputname + ", we have received their message and thank you for contacting us")
+  
   });
-});
-$(document).ready(function () {
-  $('.text').hover(function () {
-    $(this).animate({ opacity: '1' });
-  },
-    function () {
-      $(this).animate({ opacity: '0' });
-    })
-});
-$(document).ready(function () {
-  $('#mc-embedded-subscribe-form').submit(function (event) {
-    var userName = $('input#mce-NAME').val();
-    var email = $('input#mce-EMAIL').val();
-    if (userName && email != '') {
-      alert('Thank you ' + userName + '.' + ' Your subscription is well received');
-    } else {
-      alert('Please enter your name and email');
-    }
-    event.preventDefault();
-  })
-});
+  });
