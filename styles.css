@@ -3,7 +3,7 @@ body, html {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .hero-image {
-background-image:url("img/welcome.jpg");
+background-image:url("/images/h_img.jpg");
 height: 100%;
 background-position: center;
 background-repeat: no-repeat;
@@ -69,21 +69,22 @@ color:black;
    .show1{
      display: none;
      text-align: center;
-     padding: 20px;
+     padding: 15px;
    }
    .show2{
      display: none;
      text-align: center;
-     padding: 20px;
+     padding: 15px;
    }
    .show3{
      display: none;
      text-align: center;
-     padding: 20px;
+     padding: 15px;
    }
    .column {
     float: left;
     width: 33.33%;
+
   }
   
   .row:after {
@@ -92,11 +93,13 @@ color:black;
     clear: both;
     
   }
+
   .col-3 {
     float: left;
     padding: 10px;
     
   }
+
 .contact-image{
 padding: 100px; 
 height: 50%;
@@ -115,16 +118,20 @@ position: relative;
   transform: translate(-50%, -50%);
   color: white;
   } 
+
  
   form{
     margin-top: 5%;
+
   } 
+
   .form-control {
     background-color: unset ; 
   }
   ::placeholder{
     color: white !important;
   }
+
   .copyright{
     text-align: center;
   }
@@ -193,4 +200,5 @@ position: relative;
     flex-direction: column;
   }
 }
+
 
