@@ -1,26 +1,26 @@
-$(document).ready(function() {
-  $(".click1"). click(function(){
+$(document).ready(function () {
+  $(".click1").click(function () {
     $(".show1").toggle();
     $(".hide1").toggle();
   });
-    $(".click2").click(function () {
-      $(".show2").toggle();
-      $(".hide2").toggle();
-    });
-  $(".click3"). click(function(){
+  $(".click2").click(function () {
+    $(".show2").toggle();
+    $(".hide2").toggle();
+  });
+  $(".click3").click(function () {
     $(".show3").toggle();
     $(".hide3").toggle();
-      });
-      $(".col-3").hover(function(){ 
-      });
-      $("#inputName"). submit(function(event){
-  alert(inputName + "we have received your message. Thank you for reaching out to us.")
-  event.preventDefault();
+  });
+  $(".col-3").hover(function () {
+  });
+  $("#inputName").submit(function (event) {
+    alert(inputName + "we have received your message. Thank you for reaching out to us.")
+    event.preventDefault();
     $(".click3").click(function () {
       $(".show3").toggle();
       $(".hide3").toggle();
     });
-  
+
     $("#image4").hover(function () {
       $("#p4").toggle()
     });
@@ -45,14 +45,14 @@ $(document).ready(function() {
     $("#image8").hover(function () {
       $("#p8").toggle()
     });
-  
-  
+
+
   });
-  
-  
+
+
   $("form").submit(function () {
     let inputname = $("input#inputname").val()
     alert("Hello " + inputname + ", we have received their message and thank you for contacting us")
-  
+
   });
-  });
+});
